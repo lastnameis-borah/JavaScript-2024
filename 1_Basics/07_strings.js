@@ -6,6 +6,7 @@ console.log(str1 + " " + str2) // --> Hello World
 console.log(`${str1} ${str2}`) // --> Hello World
 
 let str3 = new String("Hello World")
+// Hard code str3 to be a string object.
 
 console.log(str3) // --> [String: 'Hello World']
 
