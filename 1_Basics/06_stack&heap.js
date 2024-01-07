@@ -12,7 +12,8 @@ name1 = 'Jane Watson'
 
 console.log(name, name1)    // --> John Doe Jane Watson
 
-// It is name1 stores a copy of name. So, when we change name1, it doesn't affect name.
+// name1 stores a copy of name. So, when we change name1, it doesn't affect name.
+// Deep copy
 
 
 /*
@@ -32,4 +33,5 @@ person1.name = 'Jane Watson'
 
 console.log(person, person1)    // --> { name: 'Jane Watson', age: 25 } { name: 'Jane Watson', age: 25 }
 
-// It is person1 stores a reference of person. So, when we change person1, it affects person as well.
+// person1 stores a reference of person. So, when we change person1, it affects person as well.
+// Shallow copy
