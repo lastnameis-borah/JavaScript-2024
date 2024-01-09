@@ -113,3 +113,21 @@ console.log(obj3 == obj1)  // False
 
 obj3 = Object.assign(obj1, obj2)        // i.e. obj2 is merged into obj1
 console.log(obj3 == obj1); // True
+
+
+
+// Object destructuring
+
+const {name, email, hobbies: hobs} = User
+
+console.log(name, email, hobs);
+
+
+// Object destructuring with functions
+
+function printUser({name, email, hobbies: hobs}) {
+    console.log(name, email, hobs);
+}
+printUser(User)
+
+
