@@ -125,9 +125,7 @@ console.log(name, email, hobs);
 
 // Object destructuring with functions
 
-function printUser({name, email, hobbies: hobs}) {
-    console.log(name, email, hobs);
+function Object({name, email, hobbies}) {
+    console.log(name, email, hobbies);
 }
-printUser(User)
-
-
+Object(User)
