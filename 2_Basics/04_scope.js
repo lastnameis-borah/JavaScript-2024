@@ -19,3 +19,21 @@ console.log(`Global c: ${c}`);     // --> 300
 console.log(`Global a: ${a}`)      // --> 10
 
 console.log(`Global b: ${b}`)
+
+
+// Nested scope
+
+function one(){
+    let username = "John"
+
+    function two(){
+        let website = "john@jd.com"
+        console.log(username)
+    }
+
+    console.log(website)
+
+    two()
+}
+
+one()
