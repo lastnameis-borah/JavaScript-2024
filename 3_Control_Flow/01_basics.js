@@ -55,4 +55,4 @@ if (!isVerified) {
 
 // Ternary operator
 const isUser = true;
-isUser ? console.log("You can view the content") : console.log("You can't view the content");
+isUser ? console.log("You can view the content") : console.log("You can't view the content"); 
